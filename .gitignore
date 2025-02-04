@@ -1,13 +1,8 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> master
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-<<<<<<< HEAD
 # C extensions
 *.so
 
@@ -79,33 +74,10 @@ docs/_build/
 # PyBuilder
 .pybuilder/
 target/
-=======
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
-
-# Virtual environments
-venv/
-env/
-.env/
-.venv/
-
-# IDE settings
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# Local development settings
-.env
-.env.local
->>>>>>> master
 
 # Jupyter Notebook
 .ipynb_checkpoints
 
-<<<<<<< HEAD
 # IPython
 profile_default/
 ipython_config.py
@@ -197,25 +169,3 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-=======
-# Testing
-.coverage
-htmlcov/
-.pytest_cache/
-
-# Logs
-*.log
-
-# Database
-*.db
-*.sqlite3
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
->>>>>>> master
