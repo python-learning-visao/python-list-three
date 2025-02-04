@@ -1,12 +1,14 @@
 from functools import reduce
 
+array =  ["casa", "python", "lambda"]
 
-arr =  ["casa", "python", "lambda"]
+def soma_map_elementos(arr):
+    mapeando = list(map(lambda element: len(element), arr))
+    reduc = reduce(lambda acc, element: acc + element, mapeando, 0)
+    return reduc, mapeando
 
-mapeando = list(map(lambda element: len(element), arr))
 
-print(mapeando)
+reduced, mapped = soma_map_elementos(array) # desempacotamento >>>>>>>>>>
 
-reduc = reduce(lambda acc, element: acc + element, mapeando, 0)
-
-print(reduc)
+print(reduced)    
+print(mapped)    
